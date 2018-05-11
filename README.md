@@ -1,6 +1,11 @@
 # resize-script
 A shell script to resize and compress images from AWS Bucket using AWS CLI
 
+## Requirements
+
+You need to have the following installed
+- image-magick library
+
 ## Running the script
 
 Get your file containing list of paths. You can do this via DB if you have stored the paths or using `aws s3 ls` command.
