@@ -6,7 +6,7 @@ do
     wait
     counter=1;
   else
-    source `pwd`/resize.sh 2000 $line &
+    source `pwd`/resize.sh 2000 $line $2 &
     counter=$((counter+1))
   fi
 done < "$1"
